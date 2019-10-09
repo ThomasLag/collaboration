@@ -12,7 +12,7 @@ In the future we will further develop this program to make it fully functional.
 Implementation Details:
 We do the json queries in two different ways, because we tried to import a pycurl
 but we encountered some problems since we were working on windowns. To solve
-this problem we tried to find compiled the the file but we couldn't. Therefore,
+this problem we tried to find compiled the file but we couldn't. Therefore,
 for Bithumb we used traditional json queries while for Coinbase we used 
 "xcoin_api_client" functions. To find the exchange rate between USD and KRW
 we used the information from the website "fixer", for which we used again
